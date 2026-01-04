@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Online Notes App</h1>
+        <div class="note-input">
+            <textarea id="noteText" placeholder="Write your note here..."></textarea>
+            <div class="buttons">
+                <button id="addBtn">Add Note</button>
+                <button id="downloadBtn">Download Current File</button>
+                <button id="newFileBtn">Create New File</button>
+            </div>
+        </div>
+        <div class="file-info">
+            <p>Current File: <span id="currentFileName">File1</span></p>
+        </div>
+        <div id="notesContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
